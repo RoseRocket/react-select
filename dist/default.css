@@ -15,9 +15,6 @@
   outline: none;
   padding: 8px 52px 8px 10px;
 }
-.Select-control:hover {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-}
 .is-searchable.is-open > .Select-control {
   cursor: text;
 }
@@ -212,12 +209,12 @@
   padding: 3px 0;
 }
 .Select-item {
-  background-color: #f2f9fc;
+  background-color: #D3BED9;
   border-radius: 2px;
-  border: 1px solid #c9e6f2;
-  color: #08c;
+  border: 1px solid #bd9ec6;
+  color: #000000;
   display: inline-block;
-  font-size: 1em;
+  font-size: 14px;
   margin: 2px;
 }
 .Select-item-icon,
@@ -232,23 +229,23 @@
   padding: 3px 5px;
 }
 .Select-item-label .Select-item-label__a {
-  color: #08c;
+  color: #000000;
   cursor: pointer;
 }
 .Select-item-icon {
   cursor: pointer;
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
-  border-right: 1px solid #c9e6f2;
+  border-right: 1px solid #bd9ec6;
   padding: 2px 5px 4px;
 }
 .Select-item-icon:hover,
 .Select-item-icon:focus {
-  background-color: #ddeff7;
-  color: #0077b3;
+  background-color: #c8aed0;
+  color: #000000;
 }
 .Select-item-icon:active {
-  background-color: #c9e6f2;
+  background-color: #bd9ec6;
 }
 .Select.is-multi.is-disabled .Select-item {
   background-color: #f2f2f2;
