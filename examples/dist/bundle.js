@@ -1075,13 +1075,13 @@ var Select = React.createClass({
 				'div',
 				{ className: 'Select-control', ref: 'control', onKeyDown: this.handleKeyDown, onMouseDown: this.handleMouseDown, onTouchEnd: this.handleMouseDown },
 				input,
+				value,
 				React.createElement('span', { className: 'Select-arrow-zone', onMouseDown: this.handleMouseDownOnArrow }),
 				React.createElement('span', { className: 'Select-arrow', onMouseDown: this.handleMouseDownOnArrow }),
 				loading,
 				clear
 			),
-			menu,
-			value
+			menu
 		);
 	}
 

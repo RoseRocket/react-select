@@ -869,13 +869,13 @@ var Select = React.createClass({
 				<input type="hidden" ref="value" name={this.props.name} value={this.state.value} disabled={this.props.disabled} />
 				<div className="Select-control" ref="control" onKeyDown={this.handleKeyDown} onMouseDown={this.handleMouseDown} onTouchEnd={this.handleMouseDown}>
 					{input}
+					{value}
 					<span className="Select-arrow-zone" onMouseDown={this.handleMouseDownOnArrow} />
 					<span className="Select-arrow" onMouseDown={this.handleMouseDownOnArrow} />
 					{loading}
 					{clear}
 				</div>
 				{menu}
-				{value}
 			</div>
 		);
 	}
