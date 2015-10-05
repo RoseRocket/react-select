@@ -863,19 +863,17 @@ var Select = React.createClass({
 		} else if (!this.props.multi || !this.state.values.length) {
 			input = <div className="Select-input">&nbsp;</div>;
 		}
-		console.log('justin');
+		console.log('justin2');
 		return (
 			<div ref="wrapper" className={selectClass}>
 				<input type="hidden" ref="value" name={this.props.name} value={this.state.value} disabled={this.props.disabled} />
 				<div className="Select-control" ref="control" onKeyDown={this.handleKeyDown} onMouseDown={this.handleMouseDown} onTouchEnd={this.handleMouseDown}>
 					{input}
+					{menu}
 					{value}
-					<span className="Select-arrow-zone" onMouseDown={this.handleMouseDownOnArrow} />
-					<span className="Select-arrow" onMouseDown={this.handleMouseDownOnArrow} />
 					{loading}
 					{clear}
 				</div>
-				{menu}
 			</div>
 		);
 	}
