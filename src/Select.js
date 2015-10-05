@@ -863,7 +863,7 @@ var Select = React.createClass({
 		} else if (!this.props.multi || !this.state.values.length) {
 			input = <div className="Select-input">&nbsp;</div>;
 		}
-
+		console.log('justin');
 		return (
 			<div ref="wrapper" className={selectClass}>
 				<input type="hidden" ref="value" name={this.props.name} value={this.state.value} disabled={this.props.disabled} />

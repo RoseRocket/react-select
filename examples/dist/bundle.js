@@ -1066,7 +1066,7 @@ var Select = React.createClass({
 				' '
 			);
 		}
-
+		console.log('justin');
 		return React.createElement(
 			'div',
 			{ ref: 'wrapper', className: selectClass },
@@ -1074,8 +1074,8 @@ var Select = React.createClass({
 			React.createElement(
 				'div',
 				{ className: 'Select-control', ref: 'control', onKeyDown: this.handleKeyDown, onMouseDown: this.handleMouseDown, onTouchEnd: this.handleMouseDown },
-				value,
 				input,
+				value,
 				React.createElement('span', { className: 'Select-arrow-zone', onMouseDown: this.handleMouseDownOnArrow }),
 				React.createElement('span', { className: 'Select-arrow', onMouseDown: this.handleMouseDownOnArrow }),
 				loading,
