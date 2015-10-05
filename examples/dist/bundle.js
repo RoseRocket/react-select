@@ -1051,7 +1051,7 @@ var Select = React.createClass({
 
 		if (!this.props.disabled) {
 			if (this.props.searchable) {
-				input = React.createElement(Input, _extends({ value: this.state.inputValue, onChange: this.handleInputChange, minWidth: '' }, inputProps));
+				input = React.createElement(Input, _extends({ value: this.state.inputValue, onChange: this.handleInputChange, minWidth: '365' }, inputProps));
 			} else {
 				input = React.createElement(
 					'div',
