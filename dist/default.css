@@ -13,7 +13,6 @@
   overflow: hidden;
   cursor: default;
   outline: none;
-  padding: 8px 52px 8px 10px;
 }
 .is-searchable.is-open > .Select-control {
   cursor: text;
